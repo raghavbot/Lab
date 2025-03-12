@@ -160,8 +160,6 @@ void DeletionAtPosition(int position)
         printf("LIST IS EMPTY");
     else if (position == 1)
         deleteFromBeginning();
-    else if (position == last)
-        deleteFromEnd();
     else
     {
         temp = first;
